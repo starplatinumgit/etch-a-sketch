@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    background-image: url('images/horse.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sketch-container {
+    display: flex;
+    flex-direction: column; 
+    aspect-ratio: 1 / 1;
+    width: min(60%, 700px);
+    border: 100px solid #AA2B25;
+    box-shadow: 5px 5px 50px;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    background-color: #7D6C72;
+}
+
+.square {
+    display: block;
+    flex:1;
+    transition: background-color 0.2s;
+    opacity: 0%;
+    background-color: #384B51;
+}
+
+.header {
+    background-color:#F5F5F5;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+}
+
